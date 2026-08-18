@@ -139,10 +139,16 @@ function IndexPage() {
     <span className="font-body text-[0.6rem] tracking-[0.3em] text-cream uppercase">
       Scroll Down
     </span>
-    {/* Mouse / Pill Icon with animated dot */}
-    <div className="flex h-7 w-4 justify-center rounded-full border border-gold/70 p-1">
-      <div className="h-1.5 w-1 rounded-full bg-gold animate-bounce" />
-    </div>
+    {/* Animated Down Arrow Icon */}
+    <svg
+      className="h-5 w-5 text-gold animate-bounce"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      viewBox="0 0 24 24"
+    >
+      <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
+    </svg>
   </a>
 </section>
 
