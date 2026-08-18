@@ -122,14 +122,29 @@ function IndexPage() {
       <Cover open={open} onOpen={() => setOpen(true)} />
       <MusicToggle />
 
-      {/* 1 — Invitation Image */}
-      <section id="invite" className="relative min-h-screen">
-        <img
-          src={invite}
-          alt="Tanveer Fatima Khanam & Adnan Shareef — Wedding Invitation"
-          className="h-full min-h-screen w-full object-cover"
-        />
-      </section>
+{/* 1 — Invitation Image */}
+<section id="invite" className="relative h-screen w-full overflow-hidden">
+  <img
+    src={invite}
+    alt="Tanveer Fatima Khanam & Adnan Shareef — Wedding Invitation"
+    className="h-full w-full object-cover object-center"
+  />
+
+  {/* Scroll Indicator Overlay */}
+  <a
+    href="#save-the-date"
+    aria-label="Scroll to Save The Date"
+    className="animate-bounce-subtle absolute bottom-8 left-1/2 z-20 flex -translate-x-1/2 flex-col items-center gap-2 rounded-full bg-maroon/40 px-4 py-2 backdrop-blur-md transition-all duration-300 hover:bg-maroon/70 hover:scale-105"
+  >
+    <span className="font-body text-[0.6rem] tracking-[0.3em] text-cream uppercase">
+      Scroll Down
+    </span>
+    {/* Mouse / Pill Icon with animated dot */}
+    <div className="flex h-7 w-4 justify-center rounded-full border border-gold/70 p-1">
+      <div className="h-1.5 w-1 rounded-full bg-gold animate-bounce" />
+    </div>
+  </a>
+</section>
 
       {/* 2 — Save the Date scratch card + families */}
       <section id="save-the-date" className="relative bg-ivory px-5 py-24">
