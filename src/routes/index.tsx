@@ -56,13 +56,7 @@ const TIMELINE = [
     place: "United Palace, Pillar No. 245, Attapur Ring Road, Hyderabad",
     note: "Rose petals, gold lanterns and the warmest welcome of our lives.",
   },
-  {
-    day: "Friday · 28 August 2026",
-    title: "Reception & Dinner",
-    time: "9:00 p.m.",
-    place: "United Palace, Pillar No. 245, Attapur Ring Road, Hyderabad",
-    note: "An evening of feasting, laughter and blessings shared with near & dear.",
-  },
+
   {
     day: "Monday · 31 August 2026",
     title: "Valima Dinner",

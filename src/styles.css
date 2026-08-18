@@ -230,3 +230,10 @@
     color: var(--color-foreground);
   }
 }
+@keyframes scroll-cue-bounce {
+  0%, 100% { transform: translateY(0); opacity: 1; }
+  50% { transform: translateY(10px); opacity: 0.4; }
+}
+.scroll-cue-dot {
+  animation: scroll-cue-bounce 1.6s ease-in-out infinite;
+}
